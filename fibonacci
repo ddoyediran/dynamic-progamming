@@ -15,9 +15,9 @@ console.log(fib(300)) //225851433717
 
 
 
-´´´ 
-The Optimized solution used the concept of memoization to solve the same problem.
-´´´
+
+// The Optimized solution used the concept of memoization to solve the same problem. And it takes very fast time to get the solution
+
 
 const fib = (n, mem = {}) => {
     if(n in mem) return mem[n];
